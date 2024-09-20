@@ -25,38 +25,52 @@
 
 <body>
 
-  <h1>Cami Gonzales - Project 1</h1> 
-  <p> This is my first project, exploring the basics of HTML. In this project, I utilize my newfound knowledge of headings, lists, links, and more!  </p>
+  <h1 class="title">Cami Gonzales - Project 1</h1> 
+  <p class="paragraph-text"> This is my first project, exploring the basics of HTML. In this project, I utilize my newfound knowledge of headings, lists, links, and more!  </p>
 
-  <h2>Who I am!</h2>
-  <p>My name is Cami Gonzales, and I am a Senior in the LSU Bachelor of Art program, mainly focusing on Graphic Design and Painting. 
+  <h2 class="smaller-title">Who I am!</h2>
+  <p class="paragraph-text">My name is Cami Gonzales, and I am a Senior in the LSU Bachelor of Art program, mainly focusing on Graphic Design and Painting. 
     Here is a link to my Graphic Design <a href="https://camigonzales.myportfolio.com/" target="_blank">Portfolio</a>. 
     I have never coded before, so I am very excited and nervous to learn!
   </p>
-  
-  
-  <h3>3 Fun Facts About Me</h3>
-  <ol>
-    <li>I have a Miniature Schnauzer named Romi.</li>
+
+  <h3 class="smaller-title">3 Fun Facts About Me</h3>
+
+  <div class="fun-facts-container">
+    <div class="fun-fact">
+      <p>I have a Miniature Schnauzer named Romi</p>
       <ul>
         <li>She turns 2 in October.</li>
         <li>She loves to play fetch with her pink ball.</li>
-        <li>She loves to do tricks. Here is when she first learned "paw."</li>
+        <li>She loves to do tricks. Here is when she first learned "paw."
       </ul>
-      <img src="/img/romidoingtrick.gif" alt="Gif of Romi doing trick" width="200">
-    <li>I love to collage in my free time.</li>
+      <img src="img/romidoingtrick.gif" alt="Gif of Romi doing trick" width="200">
+    </div>
+    
+    <div class="fun-fact">
+      <p>I love to collage in my free time.</p>
       <ul>
-       <li>This is a collage I did on a recent sketchbook.</li>
-       <li>I like to work from vintage magazines and thrifted books.</li>
-       </ul>
-       <img src="img/collage.JPG" alt="Collage on sketchbook" width="200">
-    <li>My favorite food is pasta.</li>
-      <ul>
-        <li>My most favorite food in the world is macaroni and cheese.</li>
-        <li>I also love chicken alfredo and spaghetti and meatballs.</li>
+        <li>This is a collage I did on a recent sketchbook.</li>
+        <li>I like to work from vintage magazines and thrifted books.</li>
       </ul>
-      <img src="/img/spaghettiandmeatballs.png" alt="spaghetti and meatballs" width="200">
-  </ol>
+      <img src="img/collage.JPG" alt="Collage on sketchbook" width="200">
+    </div>
+
+    <div class="fun-fact">
+      <p>My favorite food is pasta.</p>
+      <ul>
+        <li>Here is my personal pasta ranking:
+          <ol>
+            <li>Macaroni and Cheese</li>
+            <li>Spaghetti and Meatballs</li>
+            <li>Chicken Alfredo</li>
+          </ol>
+        </li>
+        <li>This is spaghetti and meatballs from Rotolo's.</li>
+      </ul>
+      <img src="/img/spaghettiandmeatballs.png" alt="Spaghetti and meatballs" width="200">
+    </div>
+  </div>
 
 </body>
 
