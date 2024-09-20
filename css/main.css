@@ -25,6 +25,10 @@ body {
     margin-left: 10px;
     text-align:left;
 }
+
+a{
+    color:#b9376b;
+}
   
 .fun-facts-container{
     display:flex;
