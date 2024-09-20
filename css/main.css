@@ -24,7 +24,7 @@ body {
     line-height:1.6;
     margin-left: 10px;
     text-align:left;
-    font: size 16px;
+    font-size:16px;
 }
 
 a{
@@ -39,7 +39,7 @@ a{
 }
 
 .fun-fact {
-    flex: 1;
+    flex: 1 1 100%;
     margin: 0 10px;
     background-color: #ffffff;
     padding: 10px;
@@ -50,6 +50,14 @@ a{
     font-weight: bold;
 }
 
+@media (max-width:599px){
+    .fun-facts-container{
+        flex-wrap:wrap;
+    }
+    .fun-fact{
+        flex:1 1 100%;
+    }
+}
 
 .fun-fact img {
     display:block;
